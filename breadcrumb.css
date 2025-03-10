@@ -1,0 +1,21 @@
+.breadcrumb  li{
+    display: inline;
+  }
+  
+  .breadcrumb li.location+li.location::before {
+    content: "/ ";
+  }
+  
+  .breadcrumb li a:hover {
+    color: green;
+    text-decoration: underline;
+  }
+  
+  .breadcrumb li.attribute a{
+    color:gray;
+  }
+  
+  .breadcrumb li.attribute::after {
+    color: pink;
+    content: "<3"
+  }
